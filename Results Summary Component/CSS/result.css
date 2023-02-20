@@ -13,7 +13,7 @@
 }
 
 .result-title, .score-text-description, .score-container span{
-    color:#c6bdff;
+    color:#dcd5ff;
 }
 
 .result-title{
@@ -53,4 +53,9 @@
     .result{
         border-radius: 0px 0px 20px 20px;
     }
+
+    .score-text{
+        max-width: 32ch;
+    }
+
 }
