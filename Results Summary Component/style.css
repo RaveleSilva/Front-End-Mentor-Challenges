@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 body{
@@ -17,5 +18,51 @@ main{
 }
 
 .result{
-    
+    padding: 40px 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    gap: 40px;
+    background-image: linear-gradient(#6743ff, #322BE9);
+    color: white;
+}
+
+.result-title, .score-text-description, .score-container span{
+    color:#c6bdff;
+}
+
+.result-title{
+    font-weight: 500;
+}
+
+.score-container{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#4C22CC, #4633ED);
+}
+
+.score-container strong{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.score-text{
+    max-width: 28ch;
+}
+
+.score-text-title{
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.score-text-description{
+    font-size: 18px;
 }
