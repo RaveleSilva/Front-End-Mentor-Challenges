@@ -1,47 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results Summary Component - By Front End Mentor</title>
 </head>
 <body>
+    <main>
+        <section class="result">
+            <h1>Your Result</h1>
+            <div class="score-container">
+                <span class="score">
+                    <strong>76</strong>
+                    <span>of 100</span>
+                </span>
+            </div>
+            <div class="score-text">
+                <h2>Great</h2>
+                <p>You scored higher than 65% of the peoplewho have taken these tests.</p>
+            </div>
+        </section>
 
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <section class="summary">
+            <h1>Summary</h1>
+            <div class="data-container">
+                <div class="data">
+                    <h2 class="data-title">
+                        Reaction
+                    </h2>
+                    <span>
+                        <strong class="data-score">80</strong>
+                        <span class="data-max-score"> / 100</span>
+                    </span>
+                </div>
+                <div class="data">
+                    <h2 class="data-title">
+                        Memory
+                    </h2>
+                    <span>
+                        <strong class="data-score">92</strong>
+                        <span class="data-max-score"> / 100</span>
+                    </span>
+                </div>
+                <div class="data">
+                    <h2 class="data-title">
+                        Verbal
+                    </h2>
+                    <span>
+                        <strong class="data-score">61</strong>
+                        <span class="data-max-score"> / 100</span>
+                    </span>
+                </div>
+                <div class="data">
+                    <h2 class="data-title">
+                        Visual
+                    </h2>
+                    <span>
+                        <strong class="data-score">72</strong>
+                        <span class="data-max-score"> / 100</span>
+                    </span>
+                </div>
+            </div>
+            <button>Continue</button>
+        </section>
+    </main>
 </body>
 </html>
