@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/bg-desktop.svg);
+    background-color: #674BB0;
+}
+
+header{
+    padding: 50px;
+}
+
+.logo{
+    max-width: 200px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px 50px;
+    gap: 50px;
+}
+
+.main-txt{
+    color: white;
+    margin-top: 50px;
+}
+
+.main-title{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: capitalize;
+}
+
+.main-description{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    max-width: 50ch;
+}
+
+button{
+   font-size: 1.2rem;
+   padding: 15px 50px;
+   border-radius: 40px;
+   border: none;
+   color: blueviolet;
+}
