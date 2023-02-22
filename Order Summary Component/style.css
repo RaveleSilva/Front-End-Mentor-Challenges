@@ -13,3 +13,119 @@
     --azulEscuro: hsl(223, 47%, 23%);
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+header{
+    width: 420px;
+    height: 200px;
+    background-image: url(images/illustration-hero.svg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.main-txt{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: var(--azulEscuro);
+}
+
+.main-description{
+    max-width: 30ch;
+    color: var(--azulDesaturado);
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+.plans-container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--azulMaisClaro);
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.plans-container img{
+    margin-right: 20px;
+}
+
+.type-price{
+    margin-right: 50px;
+}
+
+.plan{
+    font-size: 0.875rem;
+    color: var(--azulEscuro);
+}
+
+.price{
+    font-size: 0.875rem;
+    color: var(--azulDesaturado);
+}
+
+.change{
+    color: var(--azulBrilhante);
+    font-size: 0.825rem;
+    font-weight: 700;
+}
+
+.change:hover{
+    color: var(--azulEscuro);
+}
+
+button{
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px 0;
+    border: none;
+    background-color: var(--azulBrilhante);
+    color: var(--azulMaisClaro);
+    margin-bottom: 30px;
+    font-weight: 700;
+    box-shadow: 0px 20px 10px rgba(37, 55, 154, 0.153);
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: var(--azulEscuro);
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.cancel{
+    text-decoration: none;
+    color: var(--azulDesaturado);
+    font-weight: 700;
+}
+
+.cancel:hover{
+    text-decoration: underline;
+}
