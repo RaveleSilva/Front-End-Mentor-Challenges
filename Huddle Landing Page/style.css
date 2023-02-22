@@ -19,9 +19,13 @@ header{
 
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 2fr;
     padding: 25px 50px;
     gap: 50px;
+}
+
+main img{
+    max-width: 100%;
 }
 
 .main-txt{
@@ -30,6 +34,7 @@ main{
 }
 
 .main-title{
+    max-width: 16ch;
     font-size: 2.5rem;
     margin-bottom: 30px;
     font-family: 'Poppins', sans-serif;
@@ -46,9 +51,46 @@ main{
 }
 
 button{
+   font-family: 'Poppins', sans-serif;
    font-size: 1.2rem;
    padding: 15px 50px;
    border-radius: 40px;
    border: none;
    color: blueviolet;
+   box-shadow: 5px 5px 5px rgba(13, 0, 45, 0.485);
+   cursor: pointer;
+}
+
+footer{
+    text-align: right;
+    padding: 25px 50px;
+}
+
+footer img{
+    max-width: 40px;
+    margin-right: 20px;
+}
+
+@media (max-width: 750px){
+    main{
+        grid-template-columns: 1fr;
+    }
+
+    .main-txt{
+        text-align: center;
+    }
+
+    .main-title{
+        font-size: 2rem;
+        margin: 30px auto;
+    }
+
+    .main-description{
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
+
+    footer{
+        text-align: center;
+    }
 }
