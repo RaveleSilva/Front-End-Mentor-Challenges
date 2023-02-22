@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+:root{
+    --azulClaro:hsl(225, 100%, 94%);
+    --azulBrilhante: hsl(245, 75%, 52%);
+    --azulMaisClaro: hsl(225, 100%, 98%);
+    --azulDesaturado: hsl(224, 23%, 55%);
+    --azulEscuro: hsl(223, 47%, 23%);
+}
+
