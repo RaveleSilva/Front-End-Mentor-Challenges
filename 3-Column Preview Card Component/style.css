@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Lexend Deca', sans-serif;
+    transition: 0.5s;
 }
 
 :root{
@@ -46,15 +47,15 @@ main{
 
 .descrip{
     line-height: 1.7;
-    margin-bottom: 80px;
     color: var(--Cinzaclaro);
-    max-width: 23ch;
+    max-width: 24ch;
+    margin-bottom: 80px;
 }
 
 button{
     padding: 1rem 2.5rem;
     border-radius: 30px;
-    border: none;
+    border: 1px solid transparent;
 }
 
 .card:nth-child(1){
@@ -83,6 +84,29 @@ button{
     color: var(--Verde);
 }
 
-@
+
+@media (max-width: 940px){
+    body{
+        height: 100%;
+        padding: 40px 20px;
+    }
+
+    main{
+        grid-template-columns: 1fr;
+        width: 400px;
+    }
+
+    .card:nth-child(1){
+        background-color: var(--Laranja);
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .card:nth-child(3){
+        background-color: var(--Verde);
+        border-radius: 0px 0px 10px 10px;
+     }
+
+
+}
 
 
