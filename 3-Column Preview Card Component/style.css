@@ -2,17 +2,87 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 :root{
     --Laranja:hsl(31, 77%, 52%);
     --Ciano:hsl(184, 100%, 22%);
-    --Verde:Very dark cyan: hsl(179, 100%, 13%);
+    --Verde:hsl(179, 100%, 13%);
 
     --Cinzaclaro:hsl(0, 0%, 95%);
     --paragrafos:hsla(0, 0%, 100%, 0.75);
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Cinzaclaro);
+}
 
+main{
+    width: 1030px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    padding: 50px;
+}
+
+.icon{
+    margin-bottom: 40px;
+}
+
+.title{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--Cinzaclaro);
+    margin-bottom: 40px;
+}
+
+.descrip{
+    line-height: 1.7;
+    margin-bottom: 80px;
+    color: var(--Cinzaclaro);
+    max-width: 23ch;
+}
+
+button{
+    padding: 1rem 2.5rem;
+    border-radius: 30px;
+    border: none;
+}
+
+.card:nth-child(1){
+    background-color: var(--Laranja);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.card:nth-child(1) button{
+    color: var(--Laranja);
+}
+
+.card:nth-child(2){
+    background-color: var(--Ciano);
+}
+
+.card:nth-child(2) button{
+    color: var(--Ciano);
+}
+
+.card:nth-child(3){
+   background-color: var(--Verde);
+   border-radius: 0px 10px 10px 0px;
+}
+
+.card:nth-child(3) button{
+    color: var(--Verde);
+}
+
+@
 
 
