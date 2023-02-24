@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --Laranja:hsl(31, 77%, 52%);
+    --Ciano:hsl(184, 100%, 22%);
+    --Verde:Very dark cyan: hsl(179, 100%, 13%);
+
+    --Cinzaclaro:hsl(0, 0%, 95%);
+    --paragrafos:hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+
